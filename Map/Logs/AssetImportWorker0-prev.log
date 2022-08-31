@@ -1,0 +1,1512 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'he' Physical Memory: 16294 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Dead-Moon/Map
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54876
+Successfully changed project path to: D:/Dead-Moon/Map
+D:/Dead-Moon/Map
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 77.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Dead-Moon/Map/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008976 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 75.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.597 seconds
+Domain Reload Profiling:
+	ReloadAssembly (598ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (420ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005147 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Dead-Moon\Map\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Dead-Moon\Map\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Domain Reload Profiling:
+	ReloadAssembly (956ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (743ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3834.
+Memory consumption went from 118.3 MB to 118.2 MB.
+Total: 3.017100 ms (FindLiveObjects: 0.337000 ms CreateObjectMapping: 0.246000 ms MarkObjects: 2.334700 ms  DeleteObjects: 0.098300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 951506.137543 seconds.
+  path: Assets/sFuture Modules Pro
+  artifactKey: Guid(e353bee526c0a5a48b5dd2d3927c25b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro using Guid(e353bee526c0a5a48b5dd2d3927c25b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613efe0e2439d2757b2d9b56fc579849') in 0.005878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.530307 seconds.
+  path: Assets/sFuture Modules Pro/Models
+  artifactKey: Guid(4cbab049433fef046a729f5ed675b08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Models using Guid(4cbab049433fef046a729f5ed675b08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d8824d79157d14547bc9eddc406ee4') in 0.001457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.493830 seconds.
+  path: Assets/sFuture Modules Pro/Models/2nd floor
+  artifactKey: Guid(d47af5cecdb6e324ab0ae918c7dca86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Models/2nd floor using Guid(d47af5cecdb6e324ab0ae918c7dca86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f47a793f46c472633060fe407cda878') in 0.001804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053697 seconds.
+  path: Assets/sFuture Modules Pro/Models/2nd floor/sFuture Modules Pro Rail.FBX
+  artifactKey: Guid(15c154bee73cb7f43828c3cf93e67831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Models/2nd floor/sFuture Modules Pro Rail.FBX using Guid(15c154bee73cb7f43828c3cf93e67831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164e8d731cd623e1de2fd55e69ffd65b') in 0.440707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Models/2nd floor/sFuture Modules Pro Ramp.FBX
+  artifactKey: Guid(263ff7a65deb87e4ea890bc0024a42ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Models/2nd floor/sFuture Modules Pro Ramp.FBX using Guid(263ff7a65deb87e4ea890bc0024a42ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f87809ebb0d121c665baf0b3c74cdf') in 0.014277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.188370 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs
+  artifactKey: Guid(b8d43683e5be0c144911d5c1579384b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs using Guid(b8d43683e5be0c144911d5c1579384b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0475615b44cd5af76bac268138919e') in 0.001590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.172169 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/45
+  artifactKey: Guid(5bc54a5789a8d6a4d9b2e2ebf0355ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/45 using Guid(5bc54a5789a8d6a4d9b2e2ebf0355ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cab1f170a9b30200486883cd186faa0') in 0.001378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.105391 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/45/sFuture Modules Pro 45 Frame Glass.prefab
+  artifactKey: Guid(17086740568d06f47ab928229d2d6f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/45/sFuture Modules Pro 45 Frame Glass.prefab using Guid(17086740568d06f47ab928229d2d6f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f414dd8cc988956c6e3023570d294eac') in 0.423936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.428393 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/Core
+  artifactKey: Guid(b9392532705cefe40b6a25ebbd26d1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/Core using Guid(b9392532705cefe40b6a25ebbd26d1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f76077dc836f2458a405f3f066ac5c') in 0.001432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.296642 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/Core/sFuture Modules Pro Broder.prefab
+  artifactKey: Guid(fcbf43d9566935b41b5fc06d0abb2a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/Core/sFuture Modules Pro Broder.prefab using Guid(fcbf43d9566935b41b5fc06d0abb2a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa3f6ee49e396be26f487fd13552775') in 0.014777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/Core/sFuture Modules Pro Frame 1x1.prefab
+  artifactKey: Guid(81cdccb8fc1939947b9b7e9c5fc5f810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/Core/sFuture Modules Pro Frame 1x1.prefab using Guid(81cdccb8fc1939947b9b7e9c5fc5f810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae81d50b7890858404087d781f59e6a') in 0.034021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/Core/sFuture Modules Pro Frame 1x1 Glass.prefab
+  artifactKey: Guid(873ac25ac1e31f64e935305e5b6b41d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/Core/sFuture Modules Pro Frame 1x1 Glass.prefab using Guid(873ac25ac1e31f64e935305e5b6b41d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66e058eba798530775a4e12bf288abf') in 0.016958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.404491 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/Tube
+  artifactKey: Guid(323ee09a38b14a540aeaf1b335183447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/Tube using Guid(323ee09a38b14a540aeaf1b335183447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101a40b3601e1e78607f3f56fed068b1') in 0.001418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069346 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/Tube/sFuture Modules Pro Tube 90.prefab
+  artifactKey: Guid(9c3e099021905354e9ce84d4e9b2ee9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/Tube/sFuture Modules Pro Tube 90.prefab using Guid(9c3e099021905354e9ce84d4e9b2ee9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e7d6751f6bde83070b303c61621173') in 0.007435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/Tube/sFuture Modules Pro Tube.prefab
+  artifactKey: Guid(c4842d982edb8784da3732a322d85337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/Tube/sFuture Modules Pro Tube.prefab using Guid(c4842d982edb8784da3732a322d85337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51980cd58bb56573a57cb2ee0b783aba') in 0.008115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/Tube/sFuture Modules Pro Tube Innerseal.prefab
+  artifactKey: Guid(1cdf06b8b72b66a41a069eee85af85e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/Tube/sFuture Modules Pro Tube Innerseal.prefab using Guid(1cdf06b8b72b66a41a069eee85af85e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcc171e24e783cd0a5690012b06aa36') in 0.007516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/Tube/sFuture Modules Pro Tube seal outer.prefab
+  artifactKey: Guid(6986c7010e28b7548ae6d3bffe9bac0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/Tube/sFuture Modules Pro Tube seal outer.prefab using Guid(6986c7010e28b7548ae6d3bffe9bac0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07401edcceb05b2069138b392411b4b8') in 0.009405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/Tube/sFuture Modules Pro Tube Panel 1x1.prefab
+  artifactKey: Guid(6c505715ded0d2e4792cfdb0f98ce413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/Tube/sFuture Modules Pro Tube Panel 1x1.prefab using Guid(6c505715ded0d2e4792cfdb0f98ce413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a85a24262858f0089e8ee9c987e0a4') in 0.008399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.198018 seconds.
+  path: Assets/sFuture Modules Pro/Models/Tube
+  artifactKey: Guid(13ef9801bb018d840a20fc0ee06605d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Models/Tube using Guid(13ef9801bb018d840a20fc0ee06605d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc3ad6b6d5782e3f0ccc3b6c2757daa') in 0.001589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.179466 seconds.
+  path: Assets/sFuture Modules Pro/Models/Tube/sFuture Modules Pro Tube 90.FBX
+  artifactKey: Guid(97a16390489cf8543a02ebc2782e7fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Models/Tube/sFuture Modules Pro Tube 90.FBX using Guid(97a16390489cf8543a02ebc2782e7fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b1921b30448896c410049396b0e650') in 0.017564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Models/Tube/sFuture Modules Pro Tube seal outer.FBX
+  artifactKey: Guid(8a9764aa93972df4aa1a985dac63ffcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Models/Tube/sFuture Modules Pro Tube seal outer.FBX using Guid(8a9764aa93972df4aa1a985dac63ffcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e6b157f628ca488cdc4c53cde28301') in 0.049145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sFuture Modules Pro/Models/Tube/sFuture Modules Pro Tube Innerseal.FBX
+  artifactKey: Guid(a9090608644bad14188bdad5604db53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Models/Tube/sFuture Modules Pro Tube Innerseal.FBX using Guid(a9090608644bad14188bdad5604db53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15a49b1538b987e98a2a655f1bc591e') in 0.074859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Models/Tube/sFuture Modules Pro Tube support ground.FBX
+  artifactKey: Guid(a286ab028edbabd428aeb7da6bfadff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Models/Tube/sFuture Modules Pro Tube support ground.FBX using Guid(a286ab028edbabd428aeb7da6bfadff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b0cba729f37e46c9bdd1ee7a28f610') in 0.023377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.803755 seconds.
+  path: Assets/sFuture Modules Pro/Textures
+  artifactKey: Guid(cd83e1d9ad97fe24290c290a8c4e8181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures using Guid(cd83e1d9ad97fe24290c290a8c4e8181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59bbabdead07f16afbd0bb4a6ff6592') in 0.001578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.965319 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White
+  artifactKey: Guid(0b898901d89176e47a0478f5fb20f582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White using Guid(0b898901d89176e47a0478f5fb20f582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b134f95d4e6014c78dbdbc3e55cf1441') in 0.001391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048697 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel  2 Blackstripes Thin Border_Albedo.tga
+  artifactKey: Guid(02cdab1625f707245875f4f5329fcc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel  2 Blackstripes Thin Border_Albedo.tga using Guid(02cdab1625f707245875f4f5329fcc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa6829e740d7323c8ef5440c2c3efce') in 0.055912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 01 Thin Border_HeightMap.png
+  artifactKey: Guid(b343c6ae948429643b17b9603717a38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 01 Thin Border_HeightMap.png using Guid(b343c6ae948429643b17b9603717a38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16471a18e225536192ccf0bf81d99102') in 0.022884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Light 2 Thin Border_Albedo.tga
+  artifactKey: Guid(86afd749c37b9874a98b4a897168e7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Light 2 Thin Border_Albedo.tga using Guid(86afd749c37b9874a98b4a897168e7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9960596db6492338344ece84e29ffe') in 0.007770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Arrows  Stop Thin Border_Emission.png
+  artifactKey: Guid(4f9dd46935f204e43b4a3c98367f33c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Arrows  Stop Thin Border_Emission.png using Guid(4f9dd46935f204e43b4a3c98367f33c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bae424a3d254c454c1863515197a4e') in 0.007186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Bumper Light Thin Border_HeightMap.png
+  artifactKey: Guid(2f236d8df63a7734f92e1420a493e552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Bumper Light Thin Border_HeightMap.png using Guid(2f236d8df63a7734f92e1420a493e552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495be0897c7f3fe0733e8660844286bb') in 0.007490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Bumper Thin Border_Albedo.tga
+  artifactKey: Guid(60dba9fff63dbad47a14fa7734c410b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Bumper Thin Border_Albedo.tga using Guid(60dba9fff63dbad47a14fa7734c410b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51307d44c37d5c0cfa08912e8fcf4780') in 0.007295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Electronics 1 Thin Border_HeightMap.png
+  artifactKey: Guid(b2bdc13e90f1aba42bebb88770622890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Electronics 1 Thin Border_HeightMap.png using Guid(b2bdc13e90f1aba42bebb88770622890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911760465f25249a217c16298b678909') in 0.007212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Light 2 Thin Border_Specular.tga
+  artifactKey: Guid(163ad00af0e27874b9f4cbfbcd7a1be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Light 2 Thin Border_Specular.tga using Guid(163ad00af0e27874b9f4cbfbcd7a1be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81b7d42cf29231e1d80864f9f536a7c') in 0.008665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Arrows Thin Border_NormalMap.png
+  artifactKey: Guid(8b0fcc718c90aae47ac5fa3ee2e6912c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Arrows Thin Border_NormalMap.png using Guid(8b0fcc718c90aae47ac5fa3ee2e6912c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbaedd3a54242d645a15e0880c8390b1') in 0.010724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Stontiles Thin Border_Occlusion.png
+  artifactKey: Guid(78ce03ebafe549c4599503ef0bf09520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Stontiles Thin Border_Occlusion.png using Guid(78ce03ebafe549c4599503ef0bf09520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc8e2a62563076ce480b4d36259d030') in 0.007689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Holes Thin Border_Specular.tga
+  artifactKey: Guid(4d172cd38b8de164297e97d33f206dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Holes Thin Border_Specular.tga using Guid(4d172cd38b8de164297e97d33f206dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea615c9515e9f0e089dfef3e2f10276') in 0.008592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Arrows Thin Border_HeightMap.png
+  artifactKey: Guid(0ceb635b78a9b9f49815e2c95d6b49a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Arrows Thin Border_HeightMap.png using Guid(0ceb635b78a9b9f49815e2c95d6b49a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2775f20bb7697631825136841272c6b') in 0.007465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Arrows  Stop Thin Border_NormalMap.png
+  artifactKey: Guid(b6549745960d5ba4fa689f4478847982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Arrows  Stop Thin Border_NormalMap.png using Guid(b6549745960d5ba4fa689f4478847982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8fdc9b054d4db83bed758338844135') in 0.008980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Electronics 1 Thin Border_Emission.png
+  artifactKey: Guid(cef29564199d94649bbfd3c5ede11642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Electronics 1 Thin Border_Emission.png using Guid(cef29564199d94649bbfd3c5ede11642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd380b79fd738cb5b5b5747999284c77c') in 0.008486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Plain Thin Border_Specular.tga
+  artifactKey: Guid(12a34653398cf8e42ab2561d81011b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Plain Thin Border_Specular.tga using Guid(12a34653398cf8e42ab2561d81011b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe54aa9bab7f80b50005cbc253b3b43') in 0.008860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Server Thin Border_NormalMap.png
+  artifactKey: Guid(636f6e2253f1e8848aad8ca808b3219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Server Thin Border_NormalMap.png using Guid(636f6e2253f1e8848aad8ca808b3219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9312cae74b012532e5ce9ef0b1c40d') in 0.008452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Arrows Thin Border_Emission.png
+  artifactKey: Guid(3b9f0a323cd1c5c43b5ea45734f1ffba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Arrows Thin Border_Emission.png using Guid(3b9f0a323cd1c5c43b5ea45734f1ffba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1e318eaa5fa6485b567760a2eda7e7') in 0.007797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Bumper Light Thin Border_Specular.tga
+  artifactKey: Guid(ba3a5b6b570eca14a95965128174d4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Bumper Light Thin Border_Specular.tga using Guid(ba3a5b6b570eca14a95965128174d4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7427712741dfef18ea75fae2775f003') in 0.008626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Electronics 1 Thin Border_NormalMap.png
+  artifactKey: Guid(244561c1da457694ca047ece25a56d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Electronics 1 Thin Border_NormalMap.png using Guid(244561c1da457694ca047ece25a56d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7be0470d2be3677ecfff031d174c0da') in 0.008181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Bumper Thin Border_HeightMap.png
+  artifactKey: Guid(b5bc5d36752f6c840a470e572c6bb441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Bumper Thin Border_HeightMap.png using Guid(b5bc5d36752f6c840a470e572c6bb441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e010ecbd301f8deb45828207d4751d3e') in 0.008549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Arrows  Stop Thin Border_Albedo.tga
+  artifactKey: Guid(0c589763ecadecd41816809bb34049c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Arrows  Stop Thin Border_Albedo.tga using Guid(0c589763ecadecd41816809bb34049c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f031fcbb2aa3a5a14877a24f0b99c92') in 0.008281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel  2 Blackstripes Thin Border_Specular.tga
+  artifactKey: Guid(fb6b96680648a5c42820d91544b41e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel  2 Blackstripes Thin Border_Specular.tga using Guid(fb6b96680648a5c42820d91544b41e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfc81fe5d3f4abec6f0c3a76b7cbcab') in 0.008639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Light 1 Thin Border_Albedo.tga
+  artifactKey: Guid(437c6356b41039344a96a3f01a6b8199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Light 1 Thin Border_Albedo.tga using Guid(437c6356b41039344a96a3f01a6b8199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c4dfbe19636128ed1d48f525cb73f0') in 0.008242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Bumper Light Thin Border_NormalMap.png
+  artifactKey: Guid(659654b9848036a49a2e81cab5cb4552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Bumper Light Thin Border_NormalMap.png using Guid(659654b9848036a49a2e81cab5cb4552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478faae31b352054c124b0e1c4a02c79') in 0.007034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Light 1 Thin Border_Specular.tga
+  artifactKey: Guid(ba39cfec7a7c4a04588e0b3e0a3d8909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Light 1 Thin Border_Specular.tga using Guid(ba39cfec7a7c4a04588e0b3e0a3d8909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ff5b252b4e9c8a7a2d9fcfc17536c2') in 0.008237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Electronics 1 Thin Border_Occlusion.png
+  artifactKey: Guid(a781ab4e3fd834e4893a00944ede73ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Electronics 1 Thin Border_Occlusion.png using Guid(a781ab4e3fd834e4893a00944ede73ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435ba8694342fd07ba487a04bb6f886b') in 0.007547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Holes Thin Border_Occlusion.png
+  artifactKey: Guid(9601d274478063a4384dfc6abc1014e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Holes Thin Border_Occlusion.png using Guid(9601d274478063a4384dfc6abc1014e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df93e4d9d86e8db86b066a8a2c01f1aa') in 0.008034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Stontiles Thin Border_HeightMap.png
+  artifactKey: Guid(41cfc7321ec5889439134176a04320b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Stontiles Thin Border_HeightMap.png using Guid(41cfc7321ec5889439134176a04320b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a1913b91ddb125ac87d37cea02f2e2') in 0.007297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel  2 Blackstripes Thin Border_Occlusion.png
+  artifactKey: Guid(d33f0615f31b1d740b57c8213605209c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel  2 Blackstripes Thin Border_Occlusion.png using Guid(d33f0615f31b1d740b57c8213605209c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3820a4b6b825e1586a0704bd1253817') in 0.007600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Light 2 Thin Border_NormalMap.png
+  artifactKey: Guid(b8f624c146755794b8f38bf346be4b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Light 2 Thin Border_NormalMap.png using Guid(b8f624c146755794b8f38bf346be4b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9299f4c8634fa55bf653aba1a36aa65') in 0.008198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel  2 Blackstripes Thin Border_NormalMap.png
+  artifactKey: Guid(dea44910045c3f347a70a9c253a51fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel  2 Blackstripes Thin Border_NormalMap.png using Guid(dea44910045c3f347a70a9c253a51fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52887f1419fe971ef31955b4e2880d4f') in 0.008123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 01 Thin Border_Emission.png
+  artifactKey: Guid(cbc048cc4f7d1964da05fe82ae287c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 01 Thin Border_Emission.png using Guid(cbc048cc4f7d1964da05fe82ae287c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99515dda292667a24bd8dd10ffa6518a') in 0.007407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Light 2 Thin Border_Occlusion.png
+  artifactKey: Guid(56f038a546e7ae94f871aa2d1967ad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Light 2 Thin Border_Occlusion.png using Guid(56f038a546e7ae94f871aa2d1967ad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3852d3ede1d5fbdbd97d6476c436cc61') in 0.008913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Bumper Thin Border_Occlusion.png
+  artifactKey: Guid(631a54c7e0488d5468007d950ffe8ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Bumper Thin Border_Occlusion.png using Guid(631a54c7e0488d5468007d950ffe8ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bd0daa568e76ee2c922a12bf270033') in 0.008335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Holes Thin Border_HeightMap.png
+  artifactKey: Guid(7aa95ce77024eb146bfc8f5d4c48f9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Holes Thin Border_HeightMap.png using Guid(7aa95ce77024eb146bfc8f5d4c48f9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a988bf7d099c69634bdf15a17dd105fd') in 0.006611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Server Thin Border_Specular.tga
+  artifactKey: Guid(c96b3daf2d24cf549a8c53da42d35887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Server Thin Border_Specular.tga using Guid(c96b3daf2d24cf549a8c53da42d35887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200900b1ec31a7511e52f51f7403d833') in 0.008959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Plain Thin Border_Albedo.tga
+  artifactKey: Guid(29fc749f5abd1f643aa4691fe8cbad9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Plain Thin Border_Albedo.tga using Guid(29fc749f5abd1f643aa4691fe8cbad9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c279ce5c2cc17ba2c954c21a9d82af62') in 0.007477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel  2 Blackstripes Thin Border_HeightMap.png
+  artifactKey: Guid(efdd6daa50df47248a785427c3cdf17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel  2 Blackstripes Thin Border_HeightMap.png using Guid(efdd6daa50df47248a785427c3cdf17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1d368e0a26b57ded76249277c28b40') in 0.007083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Server Thin Border_Occlusion.png
+  artifactKey: Guid(0dcaa0136fafbc944abcba882ff7b1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Server Thin Border_Occlusion.png using Guid(0dcaa0136fafbc944abcba882ff7b1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1183f68b8b661896ccbdf822e31297') in 0.008223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.421008 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 01 Thin Border_NormalMap.png
+  artifactKey: Guid(5dee0d0d3bf95ee49b8aee0eb5cf40b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 01 Thin Border_NormalMap.png using Guid(5dee0d0d3bf95ee49b8aee0eb5cf40b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8062aa60c69ca41d2bb06a039901ee5') in 0.007763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 04 Thin Border_Albedo.tga
+  artifactKey: Guid(2f1ee444e9f556848ae5b60e0c790a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 04 Thin Border_Albedo.tga using Guid(2f1ee444e9f556848ae5b60e0c790a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a634407aca29d2e0f1dc7528c6f0bd') in 0.008405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 02 Thin Border_Specular.tga
+  artifactKey: Guid(30e759e732a999b43b7d4afd79446794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 02 Thin Border_Specular.tga using Guid(30e759e732a999b43b7d4afd79446794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfcbc23ad6ba941d683e3e24591b7ec') in 0.019809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 03 Thin Border_Occlusion.png
+  artifactKey: Guid(c30af6bc539a142438e10343ef0b8c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 03 Thin Border_Occlusion.png using Guid(c30af6bc539a142438e10343ef0b8c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f13f262b4b640c0a333d62339d960f') in 0.007965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 02 Thin Border_HeightMap.png
+  artifactKey: Guid(f9f40ec2016778847a1e56cfeb675598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 02 Thin Border_HeightMap.png using Guid(f9f40ec2016778847a1e56cfeb675598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e781815fa195d1a8ec916736100af6') in 0.007698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 02 Thin Border_Emission.png
+  artifactKey: Guid(12a93b9ea8ed8714ba75e344a99e7df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 02 Thin Border_Emission.png using Guid(12a93b9ea8ed8714ba75e344a99e7df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a28b7fbdd96bed40c3c34d430eaf5d') in 0.008050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 04 Thin Border_Emission.png
+  artifactKey: Guid(88ca22e90a77a6f42ba998c292e2e280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 04 Thin Border_Emission.png using Guid(88ca22e90a77a6f42ba998c292e2e280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1612f4c0e701fd1b4701989bc0ecc8a') in 0.006272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 05 Thin Border_Specular.tga
+  artifactKey: Guid(b33135a43bdd63c4ea0b63347d1d3861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 05 Thin Border_Specular.tga using Guid(b33135a43bdd63c4ea0b63347d1d3861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59103c096ab93b8c67cb35a348a7a75b') in 0.010183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 04 Thin Border_HeightMap.png
+  artifactKey: Guid(1dec0a8c75dfe0542a2240807b18cd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 04 Thin Border_HeightMap.png using Guid(1dec0a8c75dfe0542a2240807b18cd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333f9e51aa4badbcff5217599ddf63e5') in 0.007469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 05 Thin Border_Emission.png
+  artifactKey: Guid(b2edbd35db2c6e34a9dd9e19b0e44c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 05 Thin Border_Emission.png using Guid(b2edbd35db2c6e34a9dd9e19b0e44c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c82f2b28ada5fe305db5105e98b097') in 0.006708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text Landingpad Thin Border_Albedo.tga
+  artifactKey: Guid(cfa6345ef3833b44684270d690a4c4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text Landingpad Thin Border_Albedo.tga using Guid(cfa6345ef3833b44684270d690a4c4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4088c3ebbbfe08b76dbb4e4116f29e3f') in 0.008671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 02 Thin Border_Albedo.tga
+  artifactKey: Guid(6210afbff2fa87f4e8a27e6d40571729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 02 Thin Border_Albedo.tga using Guid(6210afbff2fa87f4e8a27e6d40571729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecaf52f376eb782bb5e1cf246c916754') in 0.007915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 03 Thin Border_NormalMap.png
+  artifactKey: Guid(ba99950d32de79e49a31599f6ca23433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 03 Thin Border_NormalMap.png using Guid(ba99950d32de79e49a31599f6ca23433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4219bcdab170094f2e2c1751cdb2aeee') in 0.008113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 02 Thin Border_NormalMap.png
+  artifactKey: Guid(7a28b22e313887e4e88638a86a9d4ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 02 Thin Border_NormalMap.png using Guid(7a28b22e313887e4e88638a86a9d4ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f97925a83981ad5071074bd70b60d09') in 0.008006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 05 Thin Border_NormalMap.png
+  artifactKey: Guid(9a96c83775ba6944e985ec70e5c44ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 05 Thin Border_NormalMap.png using Guid(9a96c83775ba6944e985ec70e5c44ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df72ba7ee4e15abf3ac56a09fbeea79') in 0.008956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 03 Thin Border_Albedo.tga
+  artifactKey: Guid(606868f59c950de4395db2cf63eebd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 03 Thin Border_Albedo.tga using Guid(606868f59c950de4395db2cf63eebd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b875b93ed8f378d3122754ad3ae6e573') in 0.009619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Ventilation 1 Thin Border_Emission.png
+  artifactKey: Guid(b115e5943a4c4464a8f856328fac1a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Ventilation 1 Thin Border_Emission.png using Guid(b115e5943a4c4464a8f856328fac1a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc79051d87a350b2715c773e345e87b') in 0.007143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Ventilation 2 Thin Border_Specular.tga
+  artifactKey: Guid(3a920a69ac33b4742bd1e9e46db1edef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Ventilation 2 Thin Border_Specular.tga using Guid(3a920a69ac33b4742bd1e9e46db1edef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9110f08b12f53740d0d4f120b147f783') in 0.008837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Ventilation 2 Thin Border_Occlusion.png
+  artifactKey: Guid(4b6f8fcae4f14854c935ea50cd28c646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Ventilation 2 Thin Border_Occlusion.png using Guid(4b6f8fcae4f14854c935ea50cd28c646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f590d6d85c09b2b06210b83fa137b55e') in 0.007984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Ventilation 1 Thin Border_Occlusion.png
+  artifactKey: Guid(e583c94df7ad35e48b845ace4414ae23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Ventilation 1 Thin Border_Occlusion.png using Guid(e583c94df7ad35e48b845ace4414ae23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66354820f38554411fcc3e0b7308bce0') in 0.007854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Ventilation 2 Thin Border_Emission.png
+  artifactKey: Guid(b58bcb6a40b3bde47b55171a4bb9901c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Ventilation 2 Thin Border_Emission.png using Guid(b58bcb6a40b3bde47b55171a4bb9901c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077706ada4ddecfe719c0127c7bfa0d0') in 0.007664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel X 1 Thin Border_Emission.png
+  artifactKey: Guid(191c7e075d1f7cf48b09ad6c3766c6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel X 1 Thin Border_Emission.png using Guid(191c7e075d1f7cf48b09ad6c3766c6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2289b04455c9e58dbf3f808ab2f5be') in 0.009050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text Landingpad Thin Border_Specular.tga
+  artifactKey: Guid(453744ae8df4ab64a94a71fd380b0037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text Landingpad Thin Border_Specular.tga using Guid(453744ae8df4ab64a94a71fd380b0037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e5193a8f5a8580f91fab36ee387060') in 0.009578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 05 Thin Border_HeightMap.png
+  artifactKey: Guid(367aad2928c50db41b788610801afa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Text 05 Thin Border_HeightMap.png using Guid(367aad2928c50db41b788610801afa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed01be3c2d61a5bcbda3ac11ea342cb1') in 0.007671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel Ventilation 1 Thin Border_NormalMap.png
+  artifactKey: Guid(df7aa91a83ee7194ab6557f781c3b3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel Ventilation 1 Thin Border_NormalMap.png using Guid(df7aa91a83ee7194ab6557f781c3b3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03520a31f3d7dc5db5da5e161fd88efe') in 0.007378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.090699 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel X 1 Thin Border_NormalMap.png
+  artifactKey: Guid(0214eb28776532b4caea8a93bda0f6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel X 1 Thin Border_NormalMap.png using Guid(0214eb28776532b4caea8a93bda0f6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4433d2b9fc33b061c85435b8447099') in 0.010953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel X 2 Thin Border_Albedo.tga
+  artifactKey: Guid(923df705571f7ec4380daf4db24dea5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel X 2 Thin Border_Albedo.tga using Guid(923df705571f7ec4380daf4db24dea5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17c8f5322a836bc7f8495ed7d3bd8d4') in 0.025941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel X 2 Thin Border_NormalMap.png
+  artifactKey: Guid(8d92c5b02287d8642ab0419c992bbba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel X 2 Thin Border_NormalMap.png using Guid(8d92c5b02287d8642ab0419c992bbba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670eb5a2afa60952a07e672cbd5d3e26') in 0.024869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel X 1 Thin Border_Specular.tga
+  artifactKey: Guid(fab59583347f00d4fba0864d63bc88b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel X 1 Thin Border_Specular.tga using Guid(fab59583347f00d4fba0864d63bc88b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6dba941d64ec462054447bc3570f22d') in 0.014847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel X_NormalMap.png
+  artifactKey: Guid(0d3e7d5620fbae840a47ea5c5180362b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel X_NormalMap.png using Guid(0d3e7d5620fbae840a47ea5c5180362b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5485279daccd45b0d46014d0a892b5b3') in 0.016163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sFuture Modules Pro/Textures/White/sFuture Panel X_Specular.tga
+  artifactKey: Guid(8d491d01a14296e45bdabddbd480906f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/White/sFuture Panel X_Specular.tga using Guid(8d491d01a14296e45bdabddbd480906f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c79e9479c5dc695701f9132e1c53c5a') in 0.087626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.862560 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/2nd Floor
+  artifactKey: Guid(2f67e22da0ce2e1409b45c9cfbe74696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/2nd Floor using Guid(2f67e22da0ce2e1409b45c9cfbe74696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b0ba0fbc30807c27afadcfd2465c67') in 0.001433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056331 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/2nd Floor/sFuture Modules Pro Rail.prefab
+  artifactKey: Guid(5065594f0a1c9ad47a6c323ad6548923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/2nd Floor/sFuture Modules Pro Rail.prefab using Guid(5065594f0a1c9ad47a6c323ad6548923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f6f49b15ad629c44a7b68d37df2e06') in 0.013987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/2nd Floor/sFuture Modules Pro Ramp Rail.prefab
+  artifactKey: Guid(3a212bf86189d6141ac8840d62d1ad63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/2nd Floor/sFuture Modules Pro Ramp Rail.prefab using Guid(3a212bf86189d6141ac8840d62d1ad63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a68ad4467ea9b316756807928d469f') in 0.011508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.738978 seconds.
+  path: Assets/sFuture Modules Pro/Models/Core
+  artifactKey: Guid(a76841224a3347b46844d8e027128b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Models/Core using Guid(a76841224a3347b46844d8e027128b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75cd41db878e2823834fc4b85b68d39') in 0.001146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052962 seconds.
+  path: Assets/sFuture Modules Pro/Models/Core/sFuture Modules Pro Broder.FBX
+  artifactKey: Guid(d52e8b59c2b264c40a6294338c1aa8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Models/Core/sFuture Modules Pro Broder.FBX using Guid(d52e8b59c2b264c40a6294338c1aa8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43b53ff8d41b4ec0f5683793285d690') in 0.012482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sFuture Modules Pro/Models/Core/sFuture Modules Pro Frame 1x1.FBX
+  artifactKey: Guid(683ed7264a656d4418cb4f160a6a5b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Models/Core/sFuture Modules Pro Frame 1x1.FBX using Guid(683ed7264a656d4418cb4f160a6a5b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3c72de793aac68c3c5c99040a52921') in 0.039075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Models/Core/sFuture Modules Pro Panel 1x1 Plain Collidermesh.fbx
+  artifactKey: Guid(8d020aa1e97cab14883e2dc80d518ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Models/Core/sFuture Modules Pro Panel 1x1 Plain Collidermesh.fbx using Guid(8d020aa1e97cab14883e2dc80d518ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798e25353bfbc501e60afadad43d85a3') in 0.070014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.357386 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/Core/sFuture Modules Pro Panel 1x1 Plain.prefab
+  artifactKey: Guid(3b317e8276e0b6e49b4a75f3643394a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/Core/sFuture Modules Pro Panel 1x1 Plain.prefab using Guid(3b317e8276e0b6e49b4a75f3643394a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7766bfc97b64192c4dc33381d6ed8a6') in 0.026824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.600531 seconds.
+  path: Assets/sFuture Modules Pro/Prefabs/Core/sFuture Modules Pro Panel 1x1 Plain.prefab
+  artifactKey: Guid(3b317e8276e0b6e49b4a75f3643394a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Prefabs/Core/sFuture Modules Pro Panel 1x1 Plain.prefab using Guid(3b317e8276e0b6e49b4a75f3643394a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e55562a8c6c26a62e78874d6a4d8128') in 0.011496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3746.906188 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold
+  artifactKey: Guid(21b89f749a60371489a611cd65c26645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold using Guid(21b89f749a60371489a611cd65c26645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c496a6bf0583374a2962889b09b0db95') in 0.104199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001858 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Arrows Thin Border_Albedo.tga
+  artifactKey: Guid(eb1a73d4fbe3d0f409e31be3decef27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Arrows Thin Border_Albedo.tga using Guid(eb1a73d4fbe3d0f409e31be3decef27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc80a0e82d8e5a45f861da58b25e4dd7') in 0.307547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Plain Thin Border_HeightMap.png
+  artifactKey: Guid(ea960913b3b76cf4199e33297eceee50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Plain Thin Border_HeightMap.png using Guid(ea960913b3b76cf4199e33297eceee50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b43531cb4684bebe13d0415b102ea9c') in 0.121071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 01 Thin Border_Emission.png
+  artifactKey: Guid(d7c99296f3856d44693b0cc340bb6950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 01 Thin Border_Emission.png using Guid(d7c99296f3856d44693b0cc340bb6950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5757c1804b09e0ceece687be5d046bef') in 0.119734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Plain_HeightMap.png
+  artifactKey: Guid(40c357e3dd4186146b4526c8691b0e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Plain_HeightMap.png using Guid(40c357e3dd4186146b4526c8691b0e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad040e3f43f82f291b3a7c5c6251044') in 0.156236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Bumper Light Thin Border_HeightMap.png
+  artifactKey: Guid(0e0e437cdf75558408bec91ceb0aab10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Bumper Light Thin Border_HeightMap.png using Guid(0e0e437cdf75558408bec91ceb0aab10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4049f6caec8b48c246ff2b8b26b19c7a') in 0.135101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 01 Thin Border_HeightMap.png
+  artifactKey: Guid(23e17213173f39847b1959d297357af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 01 Thin Border_HeightMap.png using Guid(23e17213173f39847b1959d297357af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2d6d2dc4240d135fea7848db09af49') in 0.284606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Server Thin Border_Emission.png
+  artifactKey: Guid(423d153aa92eb2c4ba4858562b64ae88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Server Thin Border_Emission.png using Guid(423d153aa92eb2c4ba4858562b64ae88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2237d7fd87271d76c387414d5b4ed7') in 0.291838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Arrows Thin Border_Emission.png
+  artifactKey: Guid(21c7f302359891143ab051a71ec3200d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Arrows Thin Border_Emission.png using Guid(21c7f302359891143ab051a71ec3200d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285838c7da1458f221cbf0279825beca') in 0.124635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Stontiles Thin Border_Albedo.tga
+  artifactKey: Guid(58bce1a029d764840833852dd9f095c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Stontiles Thin Border_Albedo.tga using Guid(58bce1a029d764840833852dd9f095c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85456817685eadb9d5724e7ad6289889') in 0.114671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Light 1 Thin Border_NormalMap.png
+  artifactKey: Guid(bf45d01ccd32a6040aab92fabb7aaaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Light 1 Thin Border_NormalMap.png using Guid(bf45d01ccd32a6040aab92fabb7aaaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953a56616d822b44e90859c38d4d2374') in 0.250405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Arrows  Stop Thin Border_NormalMap.png
+  artifactKey: Guid(733a05450f0147d47923b1381ef0ae8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Arrows  Stop Thin Border_NormalMap.png using Guid(733a05450f0147d47923b1381ef0ae8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9aca07ddea725c9358c185a68e7589') in 0.112921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Server Thin Border_Albedo.tga
+  artifactKey: Guid(3e6f551da58cb5b47adf514c2d05d2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Server Thin Border_Albedo.tga using Guid(3e6f551da58cb5b47adf514c2d05d2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626a4fc7446e9a40eee7bc3c5e44e49f') in 0.116640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Bumper Thin Border_HeightMap.png
+  artifactKey: Guid(0027efaabbf56ed4199d0c974994bf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Bumper Thin Border_HeightMap.png using Guid(0027efaabbf56ed4199d0c974994bf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edae357b7dcbac0f2c4c49737d13ccfe') in 0.157145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 02 Thin Border_HeightMap.png
+  artifactKey: Guid(b022d5f2b9ea78249be33737d1a3b9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 02 Thin Border_HeightMap.png using Guid(b022d5f2b9ea78249be33737d1a3b9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf46be2b337fdd5dd3833c8ed081fc6a') in 0.093535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Electronics 1 Thin Border_Specular.tga
+  artifactKey: Guid(5a9709b84f319454582fd0bd738d15b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Electronics 1 Thin Border_Specular.tga using Guid(5a9709b84f319454582fd0bd738d15b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219947dfd20c12fde33abcb76f132ee8') in 0.173922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Electronics 1 Thin Border_Emission.png
+  artifactKey: Guid(c3a3ed889d0e3a24484e0d9715e53409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Electronics 1 Thin Border_Emission.png using Guid(c3a3ed889d0e3a24484e0d9715e53409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07cf7e74deabdb45de84615f8f43fdca') in 0.297390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Light 1 Thin Border_Specular.tga
+  artifactKey: Guid(6be155d9bb33768498f0fd0a26f9ad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Light 1 Thin Border_Specular.tga using Guid(6be155d9bb33768498f0fd0a26f9ad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3a23ed70ae589d83c1864e014e2513') in 0.258499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Arrows  Stop Thin Border_Occlusion.png
+  artifactKey: Guid(37fcb418c980a534eaf95dcf0b40af38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Arrows  Stop Thin Border_Occlusion.png using Guid(37fcb418c980a534eaf95dcf0b40af38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15830b92568af57f2e3c2edb792e22a') in 0.131337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Plain Thin Border_NormalMap.png
+  artifactKey: Guid(0bed8cd37040588468e556fba6d07179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Plain Thin Border_NormalMap.png using Guid(0bed8cd37040588468e556fba6d07179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804eb28d7056e4fa98f3f17e14424b65') in 0.145509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Plain Thin Border_Specular.tga
+  artifactKey: Guid(8d2b2e464333b744aa39f5a44a737c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Plain Thin Border_Specular.tga using Guid(8d2b2e464333b744aa39f5a44a737c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5bf77eaf7c5455833ef4b9bca0a4ed') in 0.155499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Holes Thin Border_Albedo.tga
+  artifactKey: Guid(5467c66086f1c014f830bdb2d2766143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Holes Thin Border_Albedo.tga using Guid(5467c66086f1c014f830bdb2d2766143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42883b95536a341daae179176c03df2b') in 0.179764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Light 1 Thin Border_Occlusion.png
+  artifactKey: Guid(a9bc5d741b426ec46859442b23b33982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Light 1 Thin Border_Occlusion.png using Guid(a9bc5d741b426ec46859442b23b33982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee8dae9008c35eb583382b765b74d3a') in 0.169860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Stontiles Thin Border_Emission.png
+  artifactKey: Guid(bff7419b8a61edb4486ae211139bbd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Stontiles Thin Border_Emission.png using Guid(bff7419b8a61edb4486ae211139bbd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40be42b609188aa2b548ac1af74f2836') in 0.137317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.202449 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Arrows  Stop Thin Border_HeightMap.png
+  artifactKey: Guid(1c51ee5ee36ee4146bc63e2bd31d496c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Arrows  Stop Thin Border_HeightMap.png using Guid(1c51ee5ee36ee4146bc63e2bd31d496c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aad2d88210047b66cf21a00745ae0d8') in 0.262041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Arrows Thin Border_Specular.tga
+  artifactKey: Guid(a6b2f364fd2e8df4b9e07460bb235475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Arrows Thin Border_Specular.tga using Guid(a6b2f364fd2e8df4b9e07460bb235475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f314e3cbb4b1a2c0b2545674b55acb64') in 0.212013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Server Thin Border_NormalMap.png
+  artifactKey: Guid(f2bffc7efd1238044a1878f2a4957a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Server Thin Border_NormalMap.png using Guid(f2bffc7efd1238044a1878f2a4957a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec85ce19693ded2926b0a06aacc6dfad') in 0.255103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Plain_Occlusion.png
+  artifactKey: Guid(ef0d2ec0e55b55a47be586b912085157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Plain_Occlusion.png using Guid(ef0d2ec0e55b55a47be586b912085157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ad062a50b20c95781eb59f3ca1c32d') in 0.149964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Arrows Thin Border_Occlusion.png
+  artifactKey: Guid(89eadb9d6b742bf45b2c81239dc55f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Arrows Thin Border_Occlusion.png using Guid(89eadb9d6b742bf45b2c81239dc55f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8228ca48e01b274b4f53828c9f214115') in 0.066452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Stontiles Thin Border_NormalMap.png
+  artifactKey: Guid(b2763072ce3bc5a4ea30c6e831962c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Stontiles Thin Border_NormalMap.png using Guid(b2763072ce3bc5a4ea30c6e831962c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8118ae545cc7c3d64e91d69ee2e4f154') in 0.142830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Holes Thin Border_NormalMap.png
+  artifactKey: Guid(809688d3091887843a743e30969f3c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Holes Thin Border_NormalMap.png using Guid(809688d3091887843a743e30969f3c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5e9240f77abe308e615b6d16bf703d') in 0.161432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Plain_Emission.png
+  artifactKey: Guid(663d1a59e9108fd4d8839381f1f4258b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Plain_Emission.png using Guid(663d1a59e9108fd4d8839381f1f4258b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5fc965721ffacb912644a1d44b95830') in 0.134141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Electronics 1 Thin Border_NormalMap.png
+  artifactKey: Guid(18e2a0c29193817429d8dbd06d41de5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Electronics 1 Thin Border_NormalMap.png using Guid(18e2a0c29193817429d8dbd06d41de5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b74a61318fb4c4c988f5ece1191ef2') in 0.110578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Electronics 1 Thin Border_Occlusion.png
+  artifactKey: Guid(0094558629e94e841a269f6a1ae80d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Electronics 1 Thin Border_Occlusion.png using Guid(0094558629e94e841a269f6a1ae80d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34c7ebebba8b13bee98f8f965b9e18d') in 0.179881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Holes Thin Border_HeightMap.png
+  artifactKey: Guid(145874e6756fbd341b03161284f1ef9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Holes Thin Border_HeightMap.png using Guid(145874e6756fbd341b03161284f1ef9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad92171fde3911101e7992ed7511c08b') in 0.190074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Light 2 Thin Border_Specular.tga
+  artifactKey: Guid(b3586e33a95183443abc711a30e9c7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Light 2 Thin Border_Specular.tga using Guid(b3586e33a95183443abc711a30e9c7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482b98515fca18c1a716fb679afe935d') in 0.083230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Bumper Light Thin Border_NormalMap.png
+  artifactKey: Guid(eeddbacf592df5546afc23efe27cb716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Bumper Light Thin Border_NormalMap.png using Guid(eeddbacf592df5546afc23efe27cb716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1834de051b1bb68a65eb80f0fa9dc987') in 0.171122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Bumper Thin Border_Albedo.tga
+  artifactKey: Guid(0d2b05bc62adf5c4a9d7d11488fb52a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Bumper Thin Border_Albedo.tga using Guid(0d2b05bc62adf5c4a9d7d11488fb52a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b004f9701df22280c7ca297fd468db16') in 0.120526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Electronics 1 Thin Border_Albedo.tga
+  artifactKey: Guid(5185bd4a08af8b64ab56a1d90c220db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Electronics 1 Thin Border_Albedo.tga using Guid(5185bd4a08af8b64ab56a1d90c220db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d3839ead85af979c5d1bcc73bf4a5b') in 0.098376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Holes Thin Border_Emission.png
+  artifactKey: Guid(1439f925c6a110b45b70770d6519fad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Holes Thin Border_Emission.png using Guid(1439f925c6a110b45b70770d6519fad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b5afb3aeebfaf06076b0ac30458444') in 0.181047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Holes Thin Border_Occlusion.png
+  artifactKey: Guid(5aa1f818b7ded444e98acae2e7df7c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Holes Thin Border_Occlusion.png using Guid(5aa1f818b7ded444e98acae2e7df7c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8661e44ad9517f4173d3957e1a60edb1') in 0.098449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.602404 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 02 Thin Border_NormalMap.png
+  artifactKey: Guid(7d7b68cea2a1e1440a7af72f8ea81eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 02 Thin Border_NormalMap.png using Guid(7d7b68cea2a1e1440a7af72f8ea81eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b0ca1de8d7968b0866da5740931ffb') in 0.221746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 04 Thin Border_HeightMap.png
+  artifactKey: Guid(ad77c1bf2c23f6b4b81b6b167f08a508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 04 Thin Border_HeightMap.png using Guid(ad77c1bf2c23f6b4b81b6b167f08a508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a508f2c40933532d1bc250d1d221c267') in 0.056766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 02 Thin Border_Specular.tga
+  artifactKey: Guid(b8df629848624514d9d799c1271ff16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 02 Thin Border_Specular.tga using Guid(b8df629848624514d9d799c1271ff16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58c88ce5bf7e1a3c079b89036d4537b') in 0.192986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 03 Thin Border_NormalMap.png
+  artifactKey: Guid(a177f661df5bb0b42981cd086c26ed99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 03 Thin Border_NormalMap.png using Guid(a177f661df5bb0b42981cd086c26ed99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ae6fb4c54a7517f6a695179117c761') in 0.167166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 03 Thin Border_Emission.png
+  artifactKey: Guid(e464be3fecf8bf54fb6a010038fe4bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 03 Thin Border_Emission.png using Guid(e464be3fecf8bf54fb6a010038fe4bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b2c8e867d3b81d03133f30b555362d') in 0.105519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 03 Thin Border_Albedo.tga
+  artifactKey: Guid(2ecd25f46d88bdc42b6c8ae206e63ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 03 Thin Border_Albedo.tga using Guid(2ecd25f46d88bdc42b6c8ae206e63ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4462c7d9f7cee1eb126c09de967519be') in 0.146666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 04 Thin Border_Albedo.tga
+  artifactKey: Guid(690262a6f0c12684b91ab6926bf96123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 04 Thin Border_Albedo.tga using Guid(690262a6f0c12684b91ab6926bf96123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5380d32e3f20dbcc8c44eb6211d2d72') in 0.087386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 04 Thin Border_NormalMap.png
+  artifactKey: Guid(431b4de4f04435042b275d7a5c3a62df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 04 Thin Border_NormalMap.png using Guid(431b4de4f04435042b275d7a5c3a62df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871993c6b26a0dab2698393e02014d56') in 0.125038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.268073 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 05 Thin Border_Albedo.tga
+  artifactKey: Guid(61957173212450c4cad7d4ecf7d60514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text 05 Thin Border_Albedo.tga using Guid(61957173212450c4cad7d4ecf7d60514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ff4879db33945bb234bf5c608f2003') in 0.155370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Ventilation 2 Thin Border_Albedo.tga
+  artifactKey: Guid(e372ab4a016048e4cb3aa92f733f88c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Ventilation 2 Thin Border_Albedo.tga using Guid(e372ab4a016048e4cb3aa92f733f88c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad167057b1d6a754437c853066573ce') in 0.340788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Ventilation 1 Thin Border_Occlusion.png
+  artifactKey: Guid(687a78db8ce78984992f53994e0e126a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Ventilation 1 Thin Border_Occlusion.png using Guid(687a78db8ce78984992f53994e0e126a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43b58410c2ca4b4d9958d12663af022') in 0.136216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Ventilation 2 Thin Border_Emission.png
+  artifactKey: Guid(7aa24dc3daa75fd4092d32224d5594a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Ventilation 2 Thin Border_Emission.png using Guid(7aa24dc3daa75fd4092d32224d5594a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972f47a0b2b4f75a078562808e846a95') in 0.139568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text Landingpad Thin Border_NormalMap.png
+  artifactKey: Guid(cacc91d05c6e08241a321eea2d9ce7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text Landingpad Thin Border_NormalMap.png using Guid(cacc91d05c6e08241a321eea2d9ce7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3102e1fb918b7d94791d31357ca37cad') in 0.100116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Ventilation 1 Thin Border_Specular.tga
+  artifactKey: Guid(5293d7f73582cf7449c8ab90fac4b99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Ventilation 1 Thin Border_Specular.tga using Guid(5293d7f73582cf7449c8ab90fac4b99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b32d4d6b72cc43740466a4e17e34f84') in 0.180261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel X 2 Thin Border_NormalMap.png
+  artifactKey: Guid(071717012b8298840a1a3c088dd501e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel X 2 Thin Border_NormalMap.png using Guid(071717012b8298840a1a3c088dd501e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19101b1383040766ba5d7767ddad8428') in 0.127911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Ventilation 1 Thin Border_Emission.png
+  artifactKey: Guid(8b3cfba0b4e5170488bb95c86ee9fb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Ventilation 1 Thin Border_Emission.png using Guid(8b3cfba0b4e5170488bb95c86ee9fb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a456671ae78cfa2bfef3b89639113c5a') in 0.112059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Ventilation 2 Thin Border_Occlusion.png
+  artifactKey: Guid(37c485f5b6546eb43a25c735d63f66ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Ventilation 2 Thin Border_Occlusion.png using Guid(37c485f5b6546eb43a25c735d63f66ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b42745ea60ab535371f0dc0c0afaadd') in 0.177468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel X 2 Thin Border_Emission.png
+  artifactKey: Guid(a1ffb6738f884434b8b2a3ff50bdfb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel X 2 Thin Border_Emission.png using Guid(a1ffb6738f884434b8b2a3ff50bdfb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e258e9f5e827b613a94afacf6af2bd') in 0.161199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text Landingpad Thin Border_Emission.png
+  artifactKey: Guid(de34a0734c4ac5b4eb254c7f47165f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text Landingpad Thin Border_Emission.png using Guid(de34a0734c4ac5b4eb254c7f47165f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4da522c4088a3f9700cf8652ce21906') in 0.109499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Ventilation 1 Thin Border_HeightMap.png
+  artifactKey: Guid(0b8b1b9137357284a8a24291d1595c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Ventilation 1 Thin Border_HeightMap.png using Guid(0b8b1b9137357284a8a24291d1595c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529e63e1df37273406381c7ca5bf8d10') in 0.057344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel X 1 Thin Border_Albedo.tga
+  artifactKey: Guid(b7739a66239b0b74daf76ff8f9e65865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel X 1 Thin Border_Albedo.tga using Guid(b7739a66239b0b74daf76ff8f9e65865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060eced9261914a6f4759a56568fd7ed') in 0.056661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel X 1 Thin Border_Specular.tga
+  artifactKey: Guid(276983971c9407041a851dfad8e25f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel X 1 Thin Border_Specular.tga using Guid(276983971c9407041a851dfad8e25f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73ba530de74fbd7332b7332bbe36f89') in 0.120442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel X_Specular.tga
+  artifactKey: Guid(01b2ead5f92586c459d560365bfb31d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel X_Specular.tga using Guid(01b2ead5f92586c459d560365bfb31d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a0763723cfdb6e62bc6176df534ddd') in 0.127458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Ventilation 2 Thin Border_Specular.tga
+  artifactKey: Guid(ef312c8e52983f540ae7dc0b365af746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Ventilation 2 Thin Border_Specular.tga using Guid(ef312c8e52983f540ae7dc0b365af746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd018efa0ec54aa0dad0fbb727d6e3836') in 0.183963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel X 1 Thin Border_Emission.png
+  artifactKey: Guid(e7ae3d7bb8e5a994a903d589465baa70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel X 1 Thin Border_Emission.png using Guid(e7ae3d7bb8e5a994a903d589465baa70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11acf93c7a61137c9bfee05eb65548ee') in 0.099211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel X_Albedo.tga
+  artifactKey: Guid(8d3628d7dfde11d40aaee8381e69826c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel X_Albedo.tga using Guid(8d3628d7dfde11d40aaee8381e69826c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7946db532b72c40fb82a61d04a77f9bb') in 0.088993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text Landingpad Thin Border_HeightMap.png
+  artifactKey: Guid(040eec81f145b5f439d1f6dfca010e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/sFuture Panel Text Landingpad Thin Border_HeightMap.png using Guid(040eec81f145b5f439d1f6dfca010e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8754577228b0d14e7600dfb26bb70b9') in 0.163721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 220.599757 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue
+  artifactKey: Guid(e08a1d8e4b3e42f41acbb76e7329c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue using Guid(e08a1d8e4b3e42f41acbb76e7329c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3da64697869bc82a63237f478848a8') in 0.001639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.178185 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows  Stop Thin Border_Albedo.tga
+  artifactKey: Guid(5d248e21f1825a140a3b80cf53bf2d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows  Stop Thin Border_Albedo.tga using Guid(5d248e21f1825a140a3b80cf53bf2d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a2528319e44e701dbbb609ac211b58') in 0.111765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows  Stop Thin Border_HeightMap.png
+  artifactKey: Guid(1caf41f87effaca45932330b205e92be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows  Stop Thin Border_HeightMap.png using Guid(1caf41f87effaca45932330b205e92be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c209ed1fc4d263df5d92101c4b16352') in 0.006969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Electronics 1 Thin Border_Albedo.tga
+  artifactKey: Guid(6bb051d8580d8db4bb9574e8e1003097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Electronics 1 Thin Border_Albedo.tga using Guid(6bb051d8580d8db4bb9574e8e1003097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4052056abdc973c2daddb9abd15321') in 0.091134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Server Thin Border_NormalMap.png
+  artifactKey: Guid(6456e437de71619458965e016f944a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Server Thin Border_NormalMap.png using Guid(6456e437de71619458965e016f944a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09779fe7e87c87ccba2bbd94628ec32') in 0.181749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Bumper Thin Border_Emission.png
+  artifactKey: Guid(01b377ad01759764caeb92dc0b3975d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Bumper Thin Border_Emission.png using Guid(01b377ad01759764caeb92dc0b3975d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f33f593d166f3bb321a93b5125ffbb4') in 0.061868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Electronics 1 Thin Border_Emission.png
+  artifactKey: Guid(c21b5d65e566fdf4ba412df6260546f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Electronics 1 Thin Border_Emission.png using Guid(c21b5d65e566fdf4ba412df6260546f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46bd9d2507dea1f21f976782a62870c') in 0.115743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Light 1 Thin Border_Albedo.tga
+  artifactKey: Guid(6ac54c511fbcd0341b5ed0a3d1395c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Light 1 Thin Border_Albedo.tga using Guid(6ac54c511fbcd0341b5ed0a3d1395c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e7d7f3585af7736f8d137fc4bd01cf') in 0.113713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Plain Thin Border_HeightMap.png
+  artifactKey: Guid(bf3c5e01f93121344af4da53456674f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Plain Thin Border_HeightMap.png using Guid(bf3c5e01f93121344af4da53456674f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc4d581c9782a05b353413a7708159d') in 0.048743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Bumper Thin Border_Albedo.tga
+  artifactKey: Guid(2c2d76f6e4fe1b7469dd7757723c35da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Bumper Thin Border_Albedo.tga using Guid(2c2d76f6e4fe1b7469dd7757723c35da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92971243c7cfc82c46c042681a448cd') in 0.107877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows  Stop Thin Border_Specular.tga
+  artifactKey: Guid(624c32ef52c966849946f0fc97c547a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows  Stop Thin Border_Specular.tga using Guid(624c32ef52c966849946f0fc97c547a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e3e151c2b28082f3960ff650a733af') in 0.138527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows  Stop Thin Border_NormalMap.png
+  artifactKey: Guid(56a0c867c9cf00f4fa2dfcffce333cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows  Stop Thin Border_NormalMap.png using Guid(56a0c867c9cf00f4fa2dfcffce333cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24f16f18cb9f393a3c0bddff93ad736') in 0.099620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Bumper Light Thin Border_NormalMap.png
+  artifactKey: Guid(31d1ea6d9e2646d4aa0d1c7dfa1e9ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Bumper Light Thin Border_NormalMap.png using Guid(31d1ea6d9e2646d4aa0d1c7dfa1e9ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f48c95c9446c1f6e87525a606b9c99') in 0.048047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows Thin Border_NormalMap.png
+  artifactKey: Guid(4713055acc45e9a48bf0c7113f26f898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows Thin Border_NormalMap.png using Guid(4713055acc45e9a48bf0c7113f26f898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958ae84d9dbb8e44ed1038de1856feee') in 0.170252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows Thin Border_HeightMap.png
+  artifactKey: Guid(8e3b7e5988c5cdc4bbd2dad9ee188825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows Thin Border_HeightMap.png using Guid(8e3b7e5988c5cdc4bbd2dad9ee188825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc33ae69ea75a535d85583d65150711') in 0.007310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Bumper Light Thin Border_Albedo.tga
+  artifactKey: Guid(5e159f3f89a173a49a5677f5e24e304b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Bumper Light Thin Border_Albedo.tga using Guid(5e159f3f89a173a49a5677f5e24e304b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7450782d97a8888d6e9333dcb06996d6') in 0.154819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Plain_Emission.png
+  artifactKey: Guid(1dfef7dcc61b841438b3cb8ccc10db28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Plain_Emission.png using Guid(1dfef7dcc61b841438b3cb8ccc10db28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6a6f1ff5a175ede657dbe2db0a469d') in 0.006964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Plain_NormalMap.png
+  artifactKey: Guid(d99f3b2242b50394baf26b34c8afc78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Plain_NormalMap.png using Guid(d99f3b2242b50394baf26b34c8afc78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12673f95aeb5c8db7ed0a47a767aa0b1') in 0.080358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Light 2 Thin Border_Occlusion.png
+  artifactKey: Guid(05b44b2190ea7804db4fda787622da2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Light 2 Thin Border_Occlusion.png using Guid(05b44b2190ea7804db4fda787622da2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c0e74ce620edf09f67fb4faaa7321d') in 0.009284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Bumper Light Thin Border_Emission.png
+  artifactKey: Guid(e8888a3973b7b5441b2318b11501e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Bumper Light Thin Border_Emission.png using Guid(e8888a3973b7b5441b2318b11501e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7bde2a2fd7f80a7d29bca318cf7bc6') in 0.117679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Text 02 Thin Border_Emission.png
+  artifactKey: Guid(586fc4f4e98b26c48a2719c15ac850c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Text 02 Thin Border_Emission.png using Guid(586fc4f4e98b26c48a2719c15ac850c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd50da6df7ace13505e85f98bf1f8fcc') in 0.012993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Holes Thin Border_Albedo.tga
+  artifactKey: Guid(1bd6149b3f3adeb4b812d24ac58c8f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Holes Thin Border_Albedo.tga using Guid(1bd6149b3f3adeb4b812d24ac58c8f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552dc797e556fbfbc93a4648e651e708') in 0.164923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Light 2 Thin Border_HeightMap.png
+  artifactKey: Guid(af6331446ff895b408f28696589605c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Light 2 Thin Border_HeightMap.png using Guid(af6331446ff895b408f28696589605c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5ab5af57b65eb669d5ae9ee703b10f') in 0.022307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Electronics 1 Thin Border_HeightMap.png
+  artifactKey: Guid(0a8fcb1de5a867541a5c4709c77620e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Electronics 1 Thin Border_HeightMap.png using Guid(0a8fcb1de5a867541a5c4709c77620e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec3f2c41ffc7409f3c649bde086dcc7') in 0.008315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows Thin Border_Occlusion.png
+  artifactKey: Guid(990d3c1a08e87e74d908242b5e9caed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows Thin Border_Occlusion.png using Guid(990d3c1a08e87e74d908242b5e9caed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3761fd07ff7fe4533fbe20521515a44e') in 0.015959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Server Thin Border_Occlusion.png
+  artifactKey: Guid(eed9f7c1ef59500488da34d70c11d5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Server Thin Border_Occlusion.png using Guid(eed9f7c1ef59500488da34d70c11d5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f085fc6eef8888ead7d53ca86f43522') in 0.007326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Stontiles Thin Border_NormalMap.png
+  artifactKey: Guid(bde0abe93334f754292b56fb66b65c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Stontiles Thin Border_NormalMap.png using Guid(bde0abe93334f754292b56fb66b65c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0198dab9d044ea6349e9f2adc330e66d') in 0.208830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Plain Thin Border_Occlusion.png
+  artifactKey: Guid(a4eb678ffb7fbcd42a5fbea08d5e5821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Plain Thin Border_Occlusion.png using Guid(a4eb678ffb7fbcd42a5fbea08d5e5821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b2e118d779c7c353ccee3dc4e4a4ea') in 0.197360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Light 2 Thin Border_Albedo.tga
+  artifactKey: Guid(cfb008cb23251394b9fb3d9f3549b988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Light 2 Thin Border_Albedo.tga using Guid(cfb008cb23251394b9fb3d9f3549b988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110597060e1fe4232c2371c4be24dc3b') in 0.035109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Stontiles Thin Border_Occlusion.png
+  artifactKey: Guid(2bd99bb10ae0670498db002e99c25334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Stontiles Thin Border_Occlusion.png using Guid(2bd99bb10ae0670498db002e99c25334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c2384522425d8800c9033985d1e928') in 0.017026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Stontiles Thin Border_Emission.png
+  artifactKey: Guid(b68de4d8768c1364ba254c6a48e2ea61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Stontiles Thin Border_Emission.png using Guid(b68de4d8768c1364ba254c6a48e2ea61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fc38bc944874f4d6b5c26005640ee5') in 0.015327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows Thin Border_Albedo.tga
+  artifactKey: Guid(20f9a7091f3f388418db0e2cb08ed7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows Thin Border_Albedo.tga using Guid(20f9a7091f3f388418db0e2cb08ed7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e663f4beff2fbc2d3b9a653347946acb') in 0.055864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows Thin Border_Specular.tga
+  artifactKey: Guid(f09ad5feb692d1347a4c894bfe61e262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Arrows Thin Border_Specular.tga using Guid(f09ad5feb692d1347a4c894bfe61e262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41da2d35aaee0b86d0e428edfdae1353') in 0.089591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Plain Thin Border_NormalMap.png
+  artifactKey: Guid(1e6534dfadf718b4dba5b23d11ca43e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Plain Thin Border_NormalMap.png using Guid(1e6534dfadf718b4dba5b23d11ca43e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293a3960a10ae7b7017a203297e8ca3d') in 0.132690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Text 02 Thin Border_HeightMap.png
+  artifactKey: Guid(645c92e322855ec4f8afcfbd1acf6415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Text 02 Thin Border_HeightMap.png using Guid(645c92e322855ec4f8afcfbd1acf6415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16cb5836dc1e41e5af748f0e91a58b3c') in 0.017684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Bumper Thin Border_Specular.tga
+  artifactKey: Guid(c318aef6057105b43b1e8f96a5b518d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Bumper Thin Border_Specular.tga using Guid(c318aef6057105b43b1e8f96a5b518d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f457c75123d902001ac87096f371ca') in 0.190905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Server Thin Border_Emission.png
+  artifactKey: Guid(e1eef833d009aa14685c8398162acbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Blue/sFuture Panel Server Thin Border_Emission.png using Guid(e1eef833d009aa14685c8398162acbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2404fa945440d9a614bd71ad50c158') in 0.144946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 430.354466 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/Materials
+  artifactKey: Guid(8a78f64a65103fe4f870a811291e9d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/Materials using Guid(8a78f64a65103fe4f870a811291e9d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813fcee22ce109244edf7ea378c9e62d') in 0.001512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.048248 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/Materials/sFuture Panel Arrows Thin Border_Albedo.mat
+  artifactKey: Guid(e108a4f86a9c44c4197390169a29b9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/Materials/sFuture Panel Arrows Thin Border_Albedo.mat using Guid(e108a4f86a9c44c4197390169a29b9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a658be48bef74d568b495f8cbaf122') in 0.523927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/Materials/sFuture Panel Bumper Thin Border_Albedo.mat
+  artifactKey: Guid(fd2f19694c78af14e90bcadee982df55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/Materials/sFuture Panel Bumper Thin Border_Albedo.mat using Guid(fd2f19694c78af14e90bcadee982df55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da8c70e0ef597bb08a01a9d59f4f7dc') in 0.010774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/Materials/sFuture Panel Server Thin Border_Albedo.mat
+  artifactKey: Guid(a40f158bdc26148448bcd6dc2ccca9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/Materials/sFuture Panel Server Thin Border_Albedo.mat using Guid(a40f158bdc26148448bcd6dc2ccca9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9875a7f9b060ff7b0ddb6d422d31676a') in 0.014984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.530171 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.001393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.963406 seconds.
+  path: Assets/sFuture Modules Pro/Materials
+  artifactKey: Guid(746df124c6b673244b648e35648fe329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Materials using Guid(746df124c6b673244b648e35648fe329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc11e8948dc338c723817991ef2a1e2') in 0.001218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056582 seconds.
+  path: Assets/sFuture Modules Pro/Materials/Background.mat
+  artifactKey: Guid(87c33968c114a8e4083e3fa087ef83f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Materials/Background.mat using Guid(87c33968c114a8e4083e3fa087ef83f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9510e6087024bff84ef6cf0d0714e484') in 0.045506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1023.732720 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.019942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.792461 seconds.
+  path: Assets/PreFabs
+  artifactKey: Guid(0289c8d9949b47944b5eb8cdcd7c7aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFabs using Guid(0289c8d9949b47944b5eb8cdcd7c7aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3d1781d892a79a56de82dd81ab6c07') in 0.070896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.559373 seconds.
+  path: Assets/PreFabs/Enviorment2.prefab
+  artifactKey: Guid(4e1b4c37724ea9a45ad08a57073e8fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFabs/Enviorment2.prefab using Guid(4e1b4c37724ea9a45ad08a57073e8fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100039fd108142df8f180b3d12443440') in 0.353858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.688031 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/Materials/sFuture Panel Light 2 Thin Border_Albedo.mat
+  artifactKey: Guid(b1acb5fa0a1e6e94dbf794ae01f8f6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/Materials/sFuture Panel Light 2 Thin Border_Albedo.mat using Guid(b1acb5fa0a1e6e94dbf794ae01f8f6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbdc8273fbff7480d29e7a98af25f8eb') in 0.028928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005640 seconds.
+  path: Assets/sFuture Modules Pro/Materials/Blue/sFuture Panel Plain Thin Border.mat
+  artifactKey: Guid(b67a7599d801cf84ea25db591946ac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Materials/Blue/sFuture Panel Plain Thin Border.mat using Guid(b67a7599d801cf84ea25db591946ac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efeed8af3421cbb478cf6aaafe309be1') in 0.014027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.129131 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/Materials/sFuture Panel Holes Thin Border_Albedo.mat
+  artifactKey: Guid(78968f8b04ab86a4b83efab7dfb0bb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/Materials/sFuture Panel Holes Thin Border_Albedo.mat using Guid(78968f8b04ab86a4b83efab7dfb0bb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c4efb2c65e03da51859ff76e6ecbf0') in 0.008498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.420638 seconds.
+  path: Assets/sFuture Modules Pro/Models/45/sFuture Modules Pro 45 Frame.FBX
+  artifactKey: Guid(20052a5b4ab3c304c8358453c8a27316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Models/45/sFuture Modules Pro 45 Frame.FBX using Guid(20052a5b4ab3c304c8358453c8a27316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8baa94497deaaf50f6740a4b270ca896') in 0.017106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.129624 seconds.
+  path: Assets/sFuture Modules Pro/Textures/Gold/Materials/sFuture Panel Text 01 Thin Border_Albedo.mat
+  artifactKey: Guid(d112dbb70a2c46042aeabb7902e5d4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Textures/Gold/Materials/sFuture Panel Text 01 Thin Border_Albedo.mat using Guid(d112dbb70a2c46042aeabb7902e5d4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c4726b52f3cfdcd299e1e19d13f82e') in 0.041293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.546713 seconds.
+  path: Assets/sFuture Modules Pro/Models/45/sFuture Modules Pro 45 Wall.FBX
+  artifactKey: Guid(ee7565aa7a6634246ba48e22850dd10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sFuture Modules Pro/Models/45/sFuture Modules Pro 45 Wall.FBX using Guid(ee7565aa7a6634246ba48e22850dd10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5276acc5756d13ef5a169f02bfa4e505') in 0.032764 seconds 
